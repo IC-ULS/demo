@@ -105,7 +105,7 @@ Elemento *suprimeElementoLista(Lista *unaLista, unsigned int posicion){
 int muestraLista(Lista *unaLista){
 	//Si no hay elementos retornar error (0)
 	if (estaVaciaLista(unaLista)) {
-		printf("No hay palabras para mostrar (cola vacía).\n");
+		printf("Lista vacía no hay elementos para mostrar.\n");
 		return(0);
 	}
 	printf("Lista:\n");
